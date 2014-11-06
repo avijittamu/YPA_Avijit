@@ -1,0 +1,20 @@
+<h1>User Welcome page</h1>
+
+<%= form_for :user do  %>
+    <div class="field">
+      <%= label_tag :Email %><br />
+      <%= text_field_tag :Email %>
+    </div>
+    <div class="field">
+      <%= label_tag :Password %><br />
+      <%= password_field_tag :Password %>
+    </div>
+    <p>
+    <div class="actions">
+      <%= submit_tag "Login" %>
+    </div>
+    </p>
+    <p>
+      <%= link_to(name="New User" , new_user_path) %>
+    </p>
+<% end %>

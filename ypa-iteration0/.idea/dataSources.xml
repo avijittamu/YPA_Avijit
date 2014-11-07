@@ -4,7 +4,7 @@
     <data-source source="LOCAL" name="Rails ypa-iteration0: development" uuid="04702b83-0c26-424e-9b21-758db299a19d">
       <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\RUBY_AND_RAILS\PROJECTS\YPA_Avijit-old\ypa-iteration0\db\development.sqlite3</jdbc-url>
+      <jdbc-url>jdbc:sqlite:C:\Users\AVIJIT CHAKRABORTY\Documents\TAMU\FALL 2014\CSCE606\Project\YPA_Avijit\YPA_Avijit\ypa-iteration0\db\development.sqlite3</jdbc-url>
       <libraries />
     </data-source>
   </component>

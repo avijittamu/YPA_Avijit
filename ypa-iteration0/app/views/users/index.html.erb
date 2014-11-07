@@ -39,3 +39,8 @@
 <br />
 
 <%= link_to 'New User', new_user_path %>
+<p>
+  Download:
+  <%= link_to "CSV", users_path(format: "csv") %> |
+  <%= link_to "Excel", users_path(format: "xls") %>
+</p>
